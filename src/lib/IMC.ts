@@ -1,5 +1,5 @@
 export function calculateIMC(weight: number, height:number): number {
-  return weight / (height + height)
+  return weight / (height * height)
 }
 
 export function IMCResult(imc: number):string {
